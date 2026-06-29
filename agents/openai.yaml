@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regatta Scheduler"
+  short_description: "Build conflict-free rowing heat sheets"
+  default_prompt: "Use $regatta-scheduler to build a compact rowing regatta heat sheet from boats and boat-athletes files."
