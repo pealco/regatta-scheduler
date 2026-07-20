@@ -33,7 +33,7 @@ git clone https://github.com/pealco/regatta-scheduler.git ~/.codex/skills/regatt
 
 Ask your agent things like:
 
-- "Build a heat sheet from `boats.csv` and `boat-athletes.csv`: 8 lanes, first race at 8:00, 12-minute flights, lunch at 12:00, 45-minute athlete conflict window."
+- "Build a heat sheet from `boats.csv` and `boat-athletes.csv`: 5 lanes, first race at 8:00, 7-minute flights, lunch at 12:00, 45-minute athlete conflict window."
 - "Deconflict this schedule using the current sheet and these rosters. Move as little as possible."
 - "Validate the final schedule and report any rower conflicts, lane overages, or duplicate boats."
 
