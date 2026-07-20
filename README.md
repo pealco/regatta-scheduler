@@ -9,7 +9,7 @@ Give your coding agent the boat entries and lineup rosters exported from [Regatt
 
 The full constraint model, optimization loop, and verification checklist live in [references/scheduling-model.md](references/scheduling-model.md).
 
-Backstory: [Scheduling a regatta: By hand, by annealer, by agent](https://pedroalcocer.com/blog/scheduling-a-regatta/), the story of three attempts at scheduling the same regatta and how this skill came out of it.
+Backstory: [Scheduling a regatta: By hand, by annealer, by agent](https://pedroalcocer.com/blog/scheduling-a-regatta/), the story of three attempts at regatta scheduling (planning the Stonewall Regatta for DC Strokes Rowing Club and Capital Sprints for Capital Rowing Club) and how this skill came out of them.
 
 ## Install
 
