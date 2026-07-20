@@ -2,7 +2,7 @@
 
 An [Agent Skill](https://agentskills.io) that builds and revises rowing regatta heat sheets: compact, readable, and free of avoidable athlete conflicts.
 
-Give your coding agent the boat entries, the boat–athlete roster, and (optionally) an existing schedule. It produces a race-ready heat sheet that respects the constraints that matter on race day:
+Give your coding agent the boat entries and lineup rosters exported from [RegattaCentral](https://www.regattacentral.com), plus (optionally) an existing schedule. It produces a race-ready heat sheet that respects the constraints that matter on race day:
 
 - **Hard constraints:** lane limits per flight, no duplicate boats, no rower in two flights closer together than the conflict window, lunch breaks, valid monotonic times.
 - **Soft constraints:** stay close to the original schedule, keep events on their side of lunch, keep similar crews racing together, and move the smallest thing the smallest distance.
@@ -38,6 +38,8 @@ Ask your agent things like:
 - "Validate the final schedule and report any rower conflicts, lane overages, or duplicate boats."
 
 ## Inputs
+
+The boats and boat-athletes files are RegattaCentral exports, where clubs enter boats and submit lineups.
 
 | File | Contents |
 |---|---|

@@ -1,6 +1,6 @@
 ---
 name: regatta-scheduler
-description: Build and revise compact rowing regatta heat sheets from boats and boat-athletes files. Use when asked to create, import, deconflict, retime, validate, or review a rowing regatta schedule or Google Sheet using boat entries, athlete rosters, lane limits, lunch breaks, flight grouping, duplicate-boat checks, athlete conflict windows, age/category grouping, or before/after schedule reports.
+description: Build and revise compact rowing regatta heat sheets from RegattaCentral boats and boat-athletes exports. Use when asked to create, import, deconflict, retime, validate, or review a rowing regatta schedule or Google Sheet using RegattaCentral exports, boat entries, athlete rosters, lane limits, lunch breaks, flight grouping, duplicate-boat checks, athlete conflict windows, age/category grouping, or before/after schedule reports.
 license: MIT
 metadata:
   author: pealco
@@ -13,7 +13,7 @@ metadata:
 
 Use this skill to turn rowing entry exports into a race-ready heat sheet that is compact, readable, and free of avoidable athlete conflicts while staying close to the original schedule.
 
-Always treat the boats file and boat-athletes file as the authoritative inputs. If a live Google Sheet or previous heat sheet exists, treat it as the current scheduling state to preserve unless the user says to rebuild from scratch.
+Always treat the boats file and boat-athletes file as the authoritative inputs. Both are exports from RegattaCentral, where clubs enter boats and submit lineups. If a live Google Sheet or previous heat sheet exists, treat it as the current scheduling state to preserve unless the user says to rebuild from scratch.
 
 ## Workflow
 

@@ -2,7 +2,7 @@
 
 ## Inputs
 
-Required:
+Required (both exported from RegattaCentral):
 - Boats file: one row per boat entry with `Boat ID`, event/order/label, club, status, gender, race type, age or average age, and optional seed/result fields.
 - Boat-athletes file: one row per athlete-seat assignment with `Boat ID`, athlete name or ID, birthdate when available, gender, affiliation, and event label/order.
 
