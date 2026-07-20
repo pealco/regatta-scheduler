@@ -1,6 +1,10 @@
 ---
 name: regatta-scheduler
 description: Build and revise compact rowing regatta heat sheets from boats and boat-athletes files. Use when asked to create, import, deconflict, retime, validate, or review a rowing regatta schedule or Google Sheet using boat entries, athlete rosters, lane limits, lunch breaks, flight grouping, duplicate-boat checks, athlete conflict windows, age/category grouping, or before/after schedule reports.
+license: MIT
+metadata:
+  author: pealco
+  version: "1.0.0"
 ---
 
 # Regatta Scheduler
